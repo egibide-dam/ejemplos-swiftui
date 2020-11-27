@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+// REF: SwiftUI: https://developer.apple.com/documentation/swiftui
+// REF: Vistas y controles: https://developer.apple.com/documentation/swiftui/views-and-controls
+// REF: Qué es ese "some" https://applecoding.com/pildoras-codigo/swift-some-tipos-opacos-retorno
+
 struct ContentView: View {
     var body: some View {
         ScrollView {
@@ -14,6 +18,8 @@ struct ContentView: View {
                 EjemploText()
                 Divider()
                 EjemploTextField()
+                Divider()
+                EjemploImage()
                 Divider()
             }.padding()
         }

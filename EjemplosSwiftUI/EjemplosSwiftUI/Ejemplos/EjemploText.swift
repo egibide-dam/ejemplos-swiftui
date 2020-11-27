@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// REF: https://developer.apple.com/documentation/swiftui/text
+// REF: Text: https://developer.apple.com/documentation/swiftui/text
 
 struct EjemploText: View {
     var body: some View {

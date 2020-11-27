@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// REF: https://developer.apple.com/documentation/swiftui/textfield
+// REF: TextField: https://developer.apple.com/documentation/swiftui/textfield
 
 struct EjemploTextField: View {
 
@@ -16,6 +16,7 @@ struct EjemploTextField: View {
 
     var body: some View {
         VStack(spacing: 20) {
+
             TextField(
                 "User name (email address)",
                 text: $username
@@ -30,10 +31,13 @@ struct EjemploTextField: View {
             }
                 .autocapitalization(.none)
                 .disableAutocorrection(true)
-                .border(Color(UIColor.separator))
+                .padding(.horizontal, 30)
+
             Text(username)
                 .foregroundColor(isEditing ? .red : .blue)
+
         }
+            .textFieldStyle(RoundedBorderTextFieldStyle())
     }
 
     func validate(name: String) -> Bool {
