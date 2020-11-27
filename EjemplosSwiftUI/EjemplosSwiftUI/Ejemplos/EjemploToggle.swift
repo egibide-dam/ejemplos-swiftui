@@ -8,6 +8,7 @@
 import SwiftUI
 
 // REF: Toggle: https://developer.apple.com/documentation/swiftui/toggle
+// REF: SF Symbols: https://developer.apple.com/sf-symbols/
 
 struct EjemploToggle: View {
 
