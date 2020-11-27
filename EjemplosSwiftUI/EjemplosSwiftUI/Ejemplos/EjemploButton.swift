@@ -22,7 +22,9 @@ struct EjemploButton: View {
                     Text("Sign In")
                 }
 
-                Button("Log Out", action: logOut)
+                Button("Log Out", action: {
+                    logOut(usuario: "root")
+                })
                     .padding()
                     .foregroundColor(.white)
                     .background(Color.red)
@@ -35,8 +37,8 @@ struct EjemploButton: View {
         print("Iniciar sesión")
     }
 
-    func logOut() {
-        print("Cerrar sesión")
+    func logOut(usuario: String) {
+        print("Cerrar sesión de \(usuario)")
     }
 
     func register() {
