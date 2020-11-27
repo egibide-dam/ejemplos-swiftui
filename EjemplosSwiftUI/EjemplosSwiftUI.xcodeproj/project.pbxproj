@@ -11,6 +11,8 @@
 		4108617D2571168400BFDA0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4108617C2571168400BFDA0B /* ContentView.swift */; };
 		4108617F2571168400BFDA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4108617E2571168400BFDA0B /* Assets.xcassets */; };
 		410861822571168400BFDA0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410861812571168400BFDA0B /* Preview Assets.xcassets */; };
+		41086190257117EE00BFDA0B /* EjemploText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4108618F257117EE00BFDA0B /* EjemploText.swift */; };
+		410861952571296000BFDA0B /* EjemploTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410861942571296000BFDA0B /* EjemploTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		4108617E2571168400BFDA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		410861812571168400BFDA0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		410861832571168400BFDA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4108618F257117EE00BFDA0B /* EjemploText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploText.swift; sourceTree = "<group>"; };
+		410861942571296000BFDA0B /* EjemploTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			children = (
 				4108617A2571168400BFDA0B /* EjemplosSwiftUIApp.swift */,
 				4108617C2571168400BFDA0B /* ContentView.swift */,
+				41086192257120A500BFDA0B /* Ejemplos */,
 				4108617E2571168400BFDA0B /* Assets.xcassets */,
 				410861832571168400BFDA0B /* Info.plist */,
 				410861802571168400BFDA0B /* Preview Content */,
@@ -67,6 +72,15 @@
 				410861812571168400BFDA0B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41086192257120A500BFDA0B /* Ejemplos */ = {
+			isa = PBXGroup;
+			children = (
+				4108618F257117EE00BFDA0B /* EjemploText.swift */,
+				410861942571296000BFDA0B /* EjemploTextField.swift */,
+			);
+			path = Ejemplos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4108617D2571168400BFDA0B /* ContentView.swift in Sources */,
+				41086190257117EE00BFDA0B /* EjemploText.swift in Sources */,
+				410861952571296000BFDA0B /* EjemploTextField.swift in Sources */,
 				4108617B2571168400BFDA0B /* EjemplosSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
