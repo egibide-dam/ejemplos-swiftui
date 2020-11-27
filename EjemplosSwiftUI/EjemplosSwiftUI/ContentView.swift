@@ -21,6 +21,8 @@ struct ContentView: View {
                 Divider()
                 EjemploImage()
                 Divider()
+                EjemploButton()
+                Divider()
             }.padding()
         }
     }

@@ -14,6 +14,7 @@
 		41086190257117EE00BFDA0B /* EjemploText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4108618F257117EE00BFDA0B /* EjemploText.swift */; };
 		410861952571296000BFDA0B /* EjemploTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410861942571296000BFDA0B /* EjemploTextField.swift */; };
 		410861982571349000BFDA0B /* EjemploImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410861972571349000BFDA0B /* EjemploImage.swift */; };
+		4108619B25713AF800BFDA0B /* EjemploButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4108619A25713AF800BFDA0B /* EjemploButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4108618F257117EE00BFDA0B /* EjemploText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploText.swift; sourceTree = "<group>"; };
 		410861942571296000BFDA0B /* EjemploTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploTextField.swift; sourceTree = "<group>"; };
 		410861972571349000BFDA0B /* EjemploImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploImage.swift; sourceTree = "<group>"; };
+		4108619A25713AF800BFDA0B /* EjemploButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				4108618F257117EE00BFDA0B /* EjemploText.swift */,
 				410861942571296000BFDA0B /* EjemploTextField.swift */,
 				410861972571349000BFDA0B /* EjemploImage.swift */,
+				4108619A25713AF800BFDA0B /* EjemploButton.swift */,
 			);
 			path = Ejemplos;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4108619B25713AF800BFDA0B /* EjemploButton.swift in Sources */,
 				4108617D2571168400BFDA0B /* ContentView.swift in Sources */,
 				41086190257117EE00BFDA0B /* EjemploText.swift in Sources */,
 				410861952571296000BFDA0B /* EjemploTextField.swift in Sources */,
