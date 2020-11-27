@@ -1,0 +1,39 @@
+//
+//  EjemploToggle.swift
+//  EjemplosSwiftUI
+//
+//  Created by Ion Jaureguialzo Sarasola on 27/11/20.
+//
+
+import SwiftUI
+
+// REF: Toggle: https://developer.apple.com/documentation/swiftui/toggle
+
+struct EjemploToggle: View {
+
+    @State private var vibrateOnRing = false
+
+    var body: some View {
+        VStack {
+            Toggle(isOn: $vibrateOnRing) {
+                Text("Vibrate on Ring")
+            }
+
+            Toggle("Vibrate on Ring", isOn: $vibrateOnRing)
+
+            Toggle(isOn: $vibrateOnRing) {
+                HStack {
+                    Image(systemName: "dot.radiowaves.left.and.right")
+                    Text("Vibrate on Ring")
+                }
+            }
+        }
+            .padding(.horizontal, 40)
+    }
+}
+
+struct EjemploToggle_Previews: PreviewProvider {
+    static var previews: some View {
+        EjemploToggle()
+    }
+}

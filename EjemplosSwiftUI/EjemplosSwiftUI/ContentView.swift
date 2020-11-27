@@ -15,14 +15,22 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
-                EjemploText()
-                Divider()
-                EjemploTextField()
-                Divider()
-                EjemploImage()
-                Divider()
-                EjemploButton()
-                Divider()
+                VStack {
+                    EjemploText()
+                    Divider()
+                    EjemploTextField()
+                    Divider()
+                    EjemploImage()
+                    Divider()
+                    EjemploButton()
+                    Divider()
+                    EjemploPicker()
+                    Divider()
+                }
+                VStack {
+                    EjemploSlider()
+                    Divider()
+                }
             }.padding()
         }
     }
