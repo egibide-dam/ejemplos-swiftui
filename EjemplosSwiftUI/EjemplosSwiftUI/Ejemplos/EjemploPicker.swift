@@ -24,11 +24,20 @@ struct EjemploPicker: View {
 
     var body: some View {
         VStack {
+            Divider()
+
             Picker("Flavor", selection: $selectedFlavor) {
                 Text("Chocolate").tag(Flavor.chocolate)
                 Text("Vanilla").tag(Flavor.vanilla)
                 Text("Strawberry").tag(Flavor.strawberry)
             }
+
+            Divider()
+
+            Spacer()
+                .frame(height: 100)
+
+            Divider()
 
             // REF: Identificador único para cada caso: https://www.hackingwithswift.com/books/ios-swiftui/why-does-self-work-for-foreach
             Picker("Topping", selection: $selectedTopping) {
@@ -40,7 +49,10 @@ struct EjemploPicker: View {
 
             Text("Selected flavor: \(selectedFlavor.rawValue)")
             Text("Selected topping: \(selectedTopping.rawValue)")
+
+            Divider()
         }
+            .padding(.horizontal, 30)
     }
 }
 

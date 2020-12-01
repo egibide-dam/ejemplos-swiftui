@@ -13,25 +13,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView {
-            VStack(spacing: 20) {
-                VStack {
-                    EjemploText()
-                    Divider()
-                    EjemploTextField()
-                    Divider()
-                    EjemploImage()
-                    Divider()
-                    EjemploButton()
-                    Divider()
-                    EjemploPicker()
-                    Divider()
-                }
-                VStack {
-                    EjemploSlider()
-                    Divider()
-                }
-            }.padding()
+
+        NavigationView {
+
+            List() {
+                NavigationLink("Text", destination: EjemploText().navigationTitle("Etiquetas"))
+                NavigationLink("TextField", destination: EjemploTextField().navigationTitle("Entrada de texto"))
+                NavigationLink("Image", destination: EjemploImage().navigationTitle("Imagen"))
+                NavigationLink("Button", destination: EjemploButton().navigationTitle("Botones"))
+                NavigationLink("Toggle", destination: EjemploToggle().navigationTitle("Interruptores"))
+                NavigationLink("Picker", destination: EjemploPicker().navigationTitle("Selectores"))
+                NavigationLink("Slider", destination: EjemploSlider().navigationTitle("Sliders"))
+                Link("SwiftUI", destination: URL(string: "https://developer.apple.com/xcode/swiftui/")!)
+            }
+                .navigationBarTitle("Ejemplos")
         }
     }
 }
