@@ -24,6 +24,7 @@ struct ContentView: View {
                 NavigationLink("Toggle", destination: EjemploToggle().navigationTitle("Interruptores"))
                 NavigationLink("Picker", destination: EjemploPicker().navigationTitle("Selectores"))
                 NavigationLink("Slider", destination: EjemploSlider().navigationTitle("Sliders"))
+                NavigationLink("Shapes", destination: EjemploRotacion().navigationTitle("Figuras"))
                 Link("SwiftUI", destination: URL(string: "https://developer.apple.com/xcode/swiftui/")!)
             }
                 .navigationBarTitle("Ejemplos")

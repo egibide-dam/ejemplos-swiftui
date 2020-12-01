@@ -18,6 +18,7 @@
 		4108619E25714BA500BFDA0B /* EjemploToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4108619D25714BA500BFDA0B /* EjemploToggle.swift */; };
 		410861A125714D7700BFDA0B /* EjemploPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410861A025714D7700BFDA0B /* EjemploPicker.swift */; };
 		410861A42571531000BFDA0B /* EjemploSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410861A32571531000BFDA0B /* EjemploSlider.swift */; };
+		411F557A2576AE4100538136 /* EjemploRotacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55792576AE4100538136 /* EjemploRotacion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4108619D25714BA500BFDA0B /* EjemploToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploToggle.swift; sourceTree = "<group>"; };
 		410861A025714D7700BFDA0B /* EjemploPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploPicker.swift; sourceTree = "<group>"; };
 		410861A32571531000BFDA0B /* EjemploSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploSlider.swift; sourceTree = "<group>"; };
+		411F55792576AE4100538136 /* EjemploRotacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploRotacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				4108619D25714BA500BFDA0B /* EjemploToggle.swift */,
 				410861A025714D7700BFDA0B /* EjemploPicker.swift */,
 				410861A32571531000BFDA0B /* EjemploSlider.swift */,
+				411F55792576AE4100538136 /* EjemploRotacion.swift */,
 			);
 			path = Ejemplos;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				410861952571296000BFDA0B /* EjemploTextField.swift in Sources */,
 				410861A42571531000BFDA0B /* EjemploSlider.swift in Sources */,
 				4108619E25714BA500BFDA0B /* EjemploToggle.swift in Sources */,
+				411F557A2576AE4100538136 /* EjemploRotacion.swift in Sources */,
 				4108617B2571168400BFDA0B /* EjemplosSwiftUIApp.swift in Sources */,
 				410861982571349000BFDA0B /* EjemploImage.swift in Sources */,
 			);
